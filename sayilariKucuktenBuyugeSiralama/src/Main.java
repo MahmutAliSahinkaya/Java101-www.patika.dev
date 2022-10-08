@@ -15,7 +15,7 @@ public class Main {
 
         if ((a < b) && (a < c)) {
             if (b < c) {
-                System.out.println(a + "<" + b + ">" + c);
+                System.out.println(a + "<" + b + "<" + c);
             } else {
                 System.out.println(a + "<" + c + "<" + b);
             }
